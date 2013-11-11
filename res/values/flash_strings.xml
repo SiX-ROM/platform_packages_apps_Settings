@@ -228,24 +228,19 @@
     <string name="app_ops_turn_on_screen">turn screen on</string>
     <string name="app_ops_get_accounts">device accounts</string>
     <string name="app_ops_run_in_background">run in background</string>
-
    <!-- Force authorize substratum packages -->
    <string name="force_authorize_substratum_packages_title">Force authorize every theme app</string>
    <string name="force_authorize_substratum_packages_summary">Allow theme apps from unknown sources</string>
-
     <!-- Custom width -->
     <string name="custom_density_display">Custom density</string>
-
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
     <string name="ok_string">Ok</string>
-
     <!-- Changelog -->
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Since the last update</string>
     <string name="changelog_error">Unable to load changelog</string>
-
     <!-- Nexus about -->
     <string name="nexus_about">ROM info</string>
     <string name="nexus_about_summary">About Rom, and PureNexus official developer</string>
@@ -273,4 +268,7 @@
     <string name="surge">Surge1223</string>
     <string name="bajasur">Bajasur83</string>
     <string name="tweak_sum">Misc Tweaks</string>
+    <!-- setting: show CPU info-->
+    <string name="show_cpu_info">Show CPU info</string>
+    <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
 </resources>
