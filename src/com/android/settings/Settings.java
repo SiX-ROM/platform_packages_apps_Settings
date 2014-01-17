@@ -162,4 +162,5 @@ public class Settings extends SettingsActivity {
 
     // Flash Additions.
     public static class FlashSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class SuperSUActivity extends SettingsActivity { /* empty */ }
 }

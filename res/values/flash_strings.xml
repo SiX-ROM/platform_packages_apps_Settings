@@ -19,6 +19,9 @@
     <!-- Flash Settings title and summary -->
     <string name="flash_settings_title">Flash Settings</string>
     <string name="flash_settings_summary">Where everything changes</string>
+    <!-- SuperSU dashboard title and summary -->
+    <string name="supersu_title">SuperSU</string>
+    <string name="supersu_summary">Manage root access</string>
     <!-- Flash ROM version -->
     <string name="flash_version">Flash version</string>
     <string name="flash_version_default">Unknown</string>
