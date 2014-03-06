@@ -142,4 +142,6 @@
     <!-- Double tap for doze -->
     <string name="double_tap_wake_doze_title">Double-tap to wake on doze</string>
     <string name="double_tap_wake_doze_summary">Require a double-tap to wake the device on a doze pulse screen</string>
+    <!-- About phone screen, processor info label  [CHAR LIMIT=40] -->
+    <string name="processor_info">Processor</string>
 </resources>
