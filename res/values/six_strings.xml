@@ -291,4 +291,7 @@
     <!-- Fullscreen Keyboard -->
     <string name="disable_fullscreen_keyboard_title">Disable fullscreen keyboard</string>
     <string name="disable_fullscreen_keyboard_summary">Landscape keyboard will never take up entire screen</string>
+    <!-- Battery saver mode color -->
+    <string name="battery_saver_color_title">Warning color</string>
+    <string name="battery_saver_color_summary">Enable orange status and navigation bars when battery saver is activated</string>
 </resources>
