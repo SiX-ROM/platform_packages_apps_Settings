@@ -37,8 +37,10 @@
     <!-- Vendor number -->
     <string name="vendor_number">Vendor number</string>
     <string name="vendor_number_default">Unknown</string>
-    <!-- Model Name -->
-    <string name="model_name">Model name</string>
+    <!-- Device model -->
+    <string name="device_model">Device model</string>
+    <!-- Device name -->
+    <string name="device_name">Device name</string>
     <!-- Accessibility settings -->
     <string name="accessibility_settings_summary">Easier access</string>
     <!-- Advanced Options title and summary -->
