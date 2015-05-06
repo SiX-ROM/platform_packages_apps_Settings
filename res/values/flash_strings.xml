@@ -19,4 +19,6 @@
     <string name="flash_version_default">Unknown</string>
     <!-- Model Name -->
     <string name="model_name">Model name</string>
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
 </resources>
