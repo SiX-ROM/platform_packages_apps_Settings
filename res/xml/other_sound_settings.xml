@@ -19,6 +19,13 @@
         android:key="other_sound_settings"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <!-- Camera shutter sound -->
+    <SwitchPreference
+            android:key="camera_sounds"
+            android:title="@string/camera_sounds_title"
+            android:summary="@string/camera_sounds_summary"
+            android:defaultValue="true" />
+
     <!-- Dial pad tones -->
     <SwitchPreference
             android:key="dial_pad_tones"
