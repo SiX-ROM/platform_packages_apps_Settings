@@ -235,4 +235,9 @@
 
     <!-- Custom width -->
     <string name="custom_density_display">Custom density</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
 </resources>
