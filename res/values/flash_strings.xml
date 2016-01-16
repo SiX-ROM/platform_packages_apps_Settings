@@ -113,4 +113,7 @@
     <string name="build_compiler_default">Unknown</string>
     <string name="build_compiler_clang">Clang version</string>
     <string name="build_compiler_default">Unknown</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sound</string>
+    <string name="screenshot_sound_summary">Plays sound effect when screenshot is taken</string>
 </resources>
