@@ -53,17 +53,18 @@
             android:fragment="com.android.settings.inputmethod.PhysicalKeyboardFragment" />
     </PreferenceCategory>
 
-    <!-- Temporarily disabled: -->
-    <!--<PreferenceCategory-->
-            <!--android:key="keyboard_settings_category"-->
-            <!--android:title="@string/keyboard_settings_category">-->
+    <!-- Fullscreen Keyboard -->
+    <PreferenceCategory
+            android:key="keyboard_settings_category"
+            android:title="@string/keyboard_settings_category">
 
-        <!--<PreferenceScreen-->
-                <!--android:key="current_input_method"-->
-                <!--android:title="@string/current_input_method"-->
-                <!--/>-->
-        <!--&lt;!&ndash; Enabled input method list will be populated programmatically here. &ndash;&gt;-->
-    <!--</PreferenceCategory>-->
+        <com.six.settings.preferences.SystemSettingSwitchPreference
+                android:key="disable_fullscreen_keyboard"
+                android:title="@string/disable_fullscreen_keyboard_title"
+                android:summary="@string/disable_fullscreen_keyboard_summary"
+                android:defaultValue="false" />
+
+    </PreferenceCategory>
 
     <!--<PreferenceCategory-->
             <!--android:key="hard_keyboard"-->
