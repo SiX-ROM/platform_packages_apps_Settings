@@ -16,6 +16,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Custom settings dashboard -->
     <string name="header_category_custom">ROM Control</string>
+    <!-- Flash Settings title and summary -->
+    <string name="flash_settings_title">Flash Settings</string>
+    <string name="flash_settings_summary">Where everything changes</string>
     <!-- Flash ROM version -->
     <string name="flash_version">Flash version</string>
     <string name="flash_version_default">Unknown</string>
