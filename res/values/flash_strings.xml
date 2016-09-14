@@ -22,6 +22,9 @@
     <!-- SuperSU dashboard title and summary -->
     <string name="supersu_title">SuperSU</string>
     <string name="supersu_summary">Manage root access</string>
+    <!-- Substratum dashboard title and summary -->
+    <string name="substratum_title">Substratum</string>
+    <string name="substratum_summary">Theme your device</string>
     <!-- Flash ROM version -->
     <string name="flash_version">Flash version</string>
     <string name="flash_version_default">Unknown</string>
