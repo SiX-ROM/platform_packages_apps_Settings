@@ -17,9 +17,9 @@
     <!-- Flash ROM version -->
     <string name="flash_version">Flash version</string>
     <string name="flash_version_default">Unknown</string>
-    <!-- Vendor version -->
-    <string name="vendor_version">Vendor version</string>
-    <string name="vendor_version_default">Unknown</string>
+    <!-- Vendor number -->
+    <string name="vendor_number">Vendor number</string>
+    <string name="vendor_number_default">Unknown</string>
     <!-- Model Name -->
     <string name="model_name">Model name</string>
     <!-- Accessibility settings -->
