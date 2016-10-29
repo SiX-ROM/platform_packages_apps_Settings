@@ -106,4 +106,6 @@
     <string name="filter_substratum_apps">Substratum overlays</string>
     <string name="menu_show_substratum">Show overlays</string>
     <string name="menu_hide_substratum">Hide overlays</string>
+    <!-- Navigation category -->
+    <string name="navigation_category">Navigation</string>
 </resources>
