@@ -108,4 +108,9 @@
     <string name="menu_hide_substratum">Hide overlays</string>
     <!-- Navigation category -->
     <string name="navigation_category">Navigation</string>
+    <!-- Compiler versions -->
+    <string name="build_compiler_gcc">GCC version</string>
+    <string name="build_compiler_default">Unknown</string>
+    <string name="build_compiler_clang">Clang version</string>
+    <string name="build_compiler_default">Unknown</string>
 </resources>

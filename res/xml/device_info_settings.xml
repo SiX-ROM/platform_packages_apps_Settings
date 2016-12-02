@@ -112,6 +112,20 @@
                 android:title="@string/vendor_number"
                 android:summary="@string/vendor_number_default" />
 
+        <!-- GCC used -->
+        <Preference android:key="build_compiler_gcc"
+                android:enabled="false"
+                android:shouldDisableView="false"
+                android:title="@string/build_compiler_gcc"
+                android:summary="@string/build_compiler_default" />
+
+        <!-- Clang used -->
+        <Preference android:key="build_compiler_clang"
+                android:enabled="false"
+                android:shouldDisableView="false"
+                android:title="@string/build_compiler_clang"
+                android:summary="@string/build_compiler_default" />
+
         <!-- SELinux status information -->
         <com.android.settings.DividerPreference
                 android:key="selinux_status"
