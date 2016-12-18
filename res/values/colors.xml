@@ -97,8 +97,8 @@
     <color name="importance_disabled_tint">#4d000000</color>
 
     <!-- Accessibility SUW colors -->
-    <color name="material_blue_500">#4285F4</color>
-    <color name="material_blue_700">#3367D6</color>
+    <color name="material_blue_500">#3367d6</color>
+    <color name="material_blue_700">#2c5ec7</color>
 
     <color name="message_text_incoming">#ffffffff</color>
     <color name="message_text_outgoing">#ff323232</color>
