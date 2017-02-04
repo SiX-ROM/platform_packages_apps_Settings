@@ -28,6 +28,9 @@
     <!-- Superuser dashboard title and summary -->
     <string name="superuser_title">Superuser</string>
     <string name="superuser_summary">@string/supersu_summary</string>
+    <!-- Magisk Manager dashboard title and summary -->
+    <string name="magisk_title">Magisk Manager</string>
+    <string name="magisk_summary">Control modules and settings</string>
     <!-- Flash ROM version -->
     <string name="flash_version">Flash version</string>
     <string name="flash_version_default">Unknown</string>
