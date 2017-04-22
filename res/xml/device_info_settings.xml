@@ -22,6 +22,12 @@
         <PreferenceScreen android:key="six_header"
                 android:layout="@layout/about_header_row" />
 
+        <!-- Changelog -->
+        <PreferenceScreen android:key="six_changelog"
+            android:title="@string/changelog_title"
+            android:summary="@string/changelog_summary"
+            android:fragment="com.android.settings.flash.Changelog" />
+
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status"
