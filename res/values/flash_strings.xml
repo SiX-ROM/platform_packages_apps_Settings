@@ -245,4 +245,32 @@
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Since the last update</string>
     <string name="changelog_error">Unable to load changelog</string>
+
+    <!-- Nexus about -->
+    <string name="nexus_about">ROM info</string>
+    <string name="nexus_about_summary">About Rom, and PureNexus official developer</string>
+    <string name="nexus_useful">About S.i.X ROM</string>
+    <string name="sixrom_info">Homepage</string>
+    <string name="sixrom_gplus">Google+ Community</string>
+    <string name="sixrom_sixscreens">Screenshots Collection</string>
+    <string name="sixrom_rompapers">Wallpapers Collection</string>
+    <string name="lead_dev">S.i.X Helpful Links</string>
+    <string name="six_upnext">Upcoming changes</string>
+    <string name="nexus_telegram">Telegram Live Chat</string>
+    <string name="nexus_updates">Pushbullet Updates</string>
+    <string name="nexus_github">GitHub Source</string>
+    <string name="contribute">PureNexus Official Developer</string>
+    <string name="beans">BeansTown106</string>
+    <string name="beans_sum">Owner/maintainer</string>
+    <string name="nexus_gplus">PureNexus Google+</string>
+    <string name="donate">Donate to PureNexus developer</string>
+    <string name="devonte">Dwitherell</string>
+    <string name="devonte_sum">Wizard/maintainer</string>
+    <string name="nathanc">Nathan Chancellor</string>
+    <string name="nathanc_sum">Kernel/maintainer</string>
+    <string name="daveya">DaveyAnnihalation</string>
+    <string name="gfx_sum">Graphics/icons</string>
+    <string name="surge">Surge1223</string>
+    <string name="bajasur">Bajasur83</string>
+    <string name="tweak_sum">Misc Tweaks</string>
 </resources>

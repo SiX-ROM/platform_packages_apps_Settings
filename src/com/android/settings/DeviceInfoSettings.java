@@ -74,7 +74,7 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_EQUIPMENT_ID = "fcc_equipment_id";
     private static final String PROPERTY_EQUIPMENT_ID = "ro.ril.fccid";
     private static final String KEY_DEVICE_FEEDBACK = "device_feedback";
-    private static final String KEY_FLASH_VERSION = "six_version";
+    private static final String KEY_SIX_VERSION = "six_version";
     private static final String KEY_VENDOR_NUMBER = "vendor_number";
     private static final String KEY_MOD_BUILD_COMPILER_GCC = "build_compiler_gcc";
     private static final String KEY_MOD_BUILD_COMPILER_CLANG = "build_compiler_clang";
@@ -141,8 +141,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
         setStringSummary(KEY_KERNEL_VERSION, getFormattedKernelVersion());
         findPreference(KEY_KERNEL_VERSION).setEnabled(true);
-        setValueSummary(KEY_FLASH_VERSION, "ro.six.version");
-        findPreference(KEY_FLASH_VERSION).setEnabled(true);
+        setValueSummary(KEY_SIX_VERSION, "ro.six.version");
+        findPreference(KEY_SIX_VERSION).setEnabled(true);
         setValueSummary(KEY_MOD_BUILD_COMPILER_GCC, "ro.build.gcc");
         setValueSummary(KEY_MOD_BUILD_COMPILER_CLANG, "ro.build.clang");
 
