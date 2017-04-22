@@ -18,7 +18,7 @@
         <ImageView
             android:layout_width="625dp"
             android:layout_height="100dp"
-            android:src="@drawable/flash"
+            android:src="@drawable/sixrom"
             android:tint="?android:attr/colorAccent" 
             android:scaleType="centerInside"
             android:adjustViewBounds="true" />

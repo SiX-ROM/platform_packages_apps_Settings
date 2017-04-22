@@ -16,9 +16,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Custom settings dashboard -->
     <string name="header_category_custom">ROM Control</string>
-    <!-- Flash Settings title and summary -->
-    <string name="flash_settings_title">Flash Settings</string>
-    <string name="flash_settings_summary">Where everything changes</string>
+    <!-- SiX Settings title and summary -->
+    <string name="six_settings_title">S.i.X Settings</string>
+    <string name="six_settings_summary">Extra settings and tweaks</string>
     <!-- SuperSU dashboard title and summary -->
     <string name="supersu_title">SuperSU</string>
     <string name="supersu_summary">Manage root access</string>
@@ -31,9 +31,9 @@
     <!-- Magisk Manager dashboard title and summary -->
     <string name="magisk_title">Magisk Manager</string>
     <string name="magisk_summary">Control modules and settings</string>
-    <!-- Flash ROM version -->
-    <string name="flash_version">Flash version</string>
-    <string name="flash_version_default">Unknown</string>
+    <!-- SiXROM version -->
+    <string name="six_version">S.i.X version</string>
+    <string name="six_version_default">Unknown</string>
     <!-- Vendor number -->
     <string name="vendor_number">Vendor number</string>
     <string name="vendor_number_default">Unknown</string>
@@ -44,7 +44,7 @@
     <!-- Accessibility settings -->
     <string name="accessibility_settings_summary">Easier access</string>
     <!-- Advanced Options title and summary -->
-    <string name="dev_advanced_settings_title">Advanced settings</string>
+    <string name="dev_advanced_settings_title">Advanced options</string>
     <string name="dev_advanced_settings_summary">For the experienced user</string>
     <!-- Advanced Options Enabled by Default -->
     <string name="dev_advanced_already_enabled">No need, advanced settings are enabled by default.</string>

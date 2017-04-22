@@ -67,7 +67,6 @@
                 android:key="vibrate_when_ringing"
                 android:title="@string/vibrate_when_ringing_title" />
 
-
         <!-- Interruptions -->
         <com.android.settingslib.RestrictedPreference
                 android:key="zen_mode"
@@ -115,10 +114,10 @@
                 android:persistent="false"
                 android:fragment="com.android.settings.notification.OtherSoundSettings" />
 
-        <!-- Cast -->
+        <!-- Cast
         <PreferenceScreen
                 android:key="wifi_display"
                 android:title="@string/wifi_display_settings_title"
-                android:fragment="com.android.settings.wfd.WifiDisplaySettings" />
+                android:fragment="com.android.settings.wfd.WifiDisplaySettings" /> -->
 
 </PreferenceScreen>

@@ -95,10 +95,6 @@ final class LocalBluetoothPreferences {
             if (adapter.isDiscovering()) {
                 return true;
             }
-            if ((adapter.getDiscoveryEndMillis() +
-                GRACE_PERIOD_TO_SHOW_DIALOGS_IN_FOREGROUND) > currentTimeMillis) {
-                return true;
-            }
         }
 
         // If the device was picked in the device picker recently

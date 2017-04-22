@@ -2730,8 +2730,8 @@
         </activity>
 
         <activity android:name="Settings$FlashSettingsActivity"
-            android:label="@string/flash_settings_title"
-            android:icon="@drawable/ic_settings_flash"
+            android:label="@string/six_settings_title"
+            android:icon="@drawable/ic_settings_six"
             android:taskAffinity="">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -2747,7 +2747,7 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.flash.settings.FlashSettings" />
             <meta-data android:name="com.android.settings.summary"
-                android:resource="@string/flash_settings_summary" />
+                android:resource="@string/six_settings_summary" />
         </activity>
 
         <activity android:name="Settings$SubstratumActivity"

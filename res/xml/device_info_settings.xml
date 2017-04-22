@@ -18,8 +18,8 @@
         xmlns:settings="http://schemas.android.com/apk/res-auto"
         android:title="@string/about_settings">
 
-        <!-- Flash ROM Header Text -->
-        <PreferenceScreen android:key="flash_header"
+        <!-- SiXROM Header Logo -->
+        <PreferenceScreen android:key="six_header"
                 android:layout="@layout/about_header_row" />
 
         <!-- Device status - launches activity -->
@@ -128,12 +128,12 @@
 
         <!-- ROM version -->
         <com.android.settings.DividerPreference
-                android:key="flash_version"
+                android:key="six_version"
                 android:enabled="false"
                 android:shouldDisableView="false"
                 android:selectable="false"
-                android:title="@string/flash_version"
-                android:summary="@string/flash_version_default"
+                android:title="@string/six_version"
+                android:summary="@string/six_version_default"
                 settings:allowDividerAbove="true"
                 settings:allowDividerBelow="true" />
 
@@ -159,7 +159,7 @@
                 settings:allowDividerAbove="true"
                 settings:allowDividerBelow="true" />
 
-        <!-- GCC used -->
+        <!-- GCC used
         <com.android.settings.DividerPreference
                 android:key="build_compiler_gcc"
                 android:enabled="false"
@@ -168,9 +168,9 @@
                 android:title="@string/build_compiler_gcc"
                 android:summary="@string/build_compiler_default"
                 settings:allowDividerAbove="true"
-                settings:allowDividerBelow="true" />
+                settings:allowDividerBelow="true" /> -->
 
-        <!-- Clang used -->
+        <!-- Clang used 
         <com.android.settings.DividerPreference
                 android:key="build_compiler_clang"
                 android:enabled="false"
@@ -179,7 +179,7 @@
                 android:title="@string/build_compiler_clang"
                 android:summary="@string/build_compiler_default"
                 settings:allowDividerAbove="true"
-                settings:allowDividerBelow="true" />
+                settings:allowDividerBelow="true" /> -->
 
         <!-- SELinux status information -->
         <com.android.settings.DividerPreference
