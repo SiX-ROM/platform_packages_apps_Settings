@@ -160,8 +160,8 @@ public class Settings extends SettingsActivity {
     public static class PersonalSettings extends SettingsActivity { /* empty */ }
     public static class SystemSettings extends SettingsActivity { /* empty */ }
 
-    // Flash Additions.
-    public static class FlashSettingsActivity extends SettingsActivity { /* empty */ }
+    // SiX Additions.
+    public static class SixSettingsActivity extends SettingsActivity { /* empty */ }
     public static class SubstratumActivity extends SettingsActivity { /* empty */ }
     public static class SuperSUActivity extends SettingsActivity { /* empty */ }
     public static class SuperUserActivity extends SettingsActivity { /* empty */ }

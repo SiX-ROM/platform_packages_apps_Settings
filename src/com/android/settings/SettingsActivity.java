@@ -87,7 +87,7 @@ import com.android.settings.deviceinfo.SimStatus;
 import com.android.settings.deviceinfo.Status;
 import com.android.settings.deviceinfo.StorageSettings;
 import com.android.settings.display.NightDisplaySettings;
-import com.android.settings.flash.DisplayRotation;
+import com.android.settings.six.DisplayRotation;
 import com.android.settings.fuelgauge.BatterySaverSettings;
 import com.android.settings.fuelgauge.PowerUsageDetail;
 import com.android.settings.fuelgauge.PowerUsageSummary;
@@ -136,12 +136,12 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settingslib.drawer.DashboardCategory;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
 import com.android.settingslib.drawer.Tile;
-import com.flash.settings.FlashSettings;
-import com.flash.settings.fragments.FlingSettings;
-import com.flash.settings.fragments.NavbarSettings;
-import com.flash.settings.fragments.SmartbarSettings;
-import com.flash.settings.fragments.PulseSettings;
-import com.flash.settings.fragments.HeadsUpSettings;
+import com.six.settings.SixSettings;
+import com.six.settings.fragments.FlingSettings;
+import com.six.settings.fragments.NavbarSettings;
+import com.six.settings.fragments.SmartbarSettings;
+import com.six.settings.fragments.PulseSettings;
+import com.six.settings.fragments.HeadsUpSettings;
 
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -257,7 +257,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             Settings.SimSettingsActivity.class.getName(),
             Settings.WirelessSettingsActivity.class.getName(),
             //custom_section
-            FlashSettings.class.getName(),
+            SixSettings.class.getName(),
             //device_section
             Settings.HomeSettingsActivity.class.getName(),
             Settings.SoundSettingsActivity.class.getName(),
@@ -378,7 +378,7 @@ public class SettingsActivity extends SettingsDrawerActivity
             NightDisplaySettings.class.getName(),
             ManageDomainUrls.class.getName(),
             AutomaticStorageManagerSettings.class.getName(),
-            FlashSettings.class.getName(),
+            SixSettings.class.getName(),
             DisplayRotation.class.getName(),
             ExpandedDesktopPreferenceFragment.class.getName(),
             NavbarSettings.class.getName(),

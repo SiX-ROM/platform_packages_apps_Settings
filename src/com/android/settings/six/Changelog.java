@@ -14,7 +14,7 @@
     limitations under the License.
  */
 
-package com.android.settings.flash;
+package com.android.settings.six;
 
 import android.app.Fragment;
 import android.os.Bundle;

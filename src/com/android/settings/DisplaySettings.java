@@ -54,13 +54,13 @@ import com.android.internal.view.RotationPolicy;
 import com.android.settings.accessibility.ToggleFontSizePreferenceFragment;
 import com.android.settings.dashboard.DashboardSummary;
 import com.android.settings.dashboard.SummaryLoader;
-import com.android.settings.flash.DisplayRotation;
+import com.android.settings.six.DisplayRotation;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settingslib.RestrictedLockUtils;
 import com.android.settingslib.RestrictedPreference;
 
-import com.flash.settings.preferences.CustomSeekBarPreference;
+import com.six.settings.preferences.CustomSeekBarPreference;
 
 import java.util.ArrayList;
 import java.util.List;

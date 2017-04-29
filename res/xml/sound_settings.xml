@@ -52,7 +52,7 @@
                 android:title="@string/notification_volume_option_title" />
 
         <!-- Increasing ring -->
-        <com.flash.settings.preferences.SystemSettingSwitchPreference
+        <com.six.settings.preferences.SystemSettingSwitchPreference
                 android:key="increasing_ring"
                 android:title="@string/increasing_ring_volume_option_title" />
 

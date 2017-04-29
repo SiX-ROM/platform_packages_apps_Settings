@@ -28,7 +28,7 @@
         <!-- SiXROM about -->
         <PreferenceScreen
             android:key="about_nexus"
-            android:fragment="com.android.settings.flash.About"
+            android:fragment="com.android.settings.six.About"
             android:title="@string/nexus_about"
             android:summary="@string/nexus_about_summary" />
 
@@ -36,7 +36,7 @@
         <PreferenceScreen android:key="six_changelog"
             android:title="@string/changelog_title"
             android:summary="@string/changelog_summary"
-            android:fragment="com.android.settings.flash.Changelog" />
+            android:fragment="com.android.settings.six.Changelog" />
 
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"

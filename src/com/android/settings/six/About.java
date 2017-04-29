@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.settings.flash;
+package com.android.settings.six;
 
 import android.os.Bundle;
 import android.preference.Preference;
@@ -35,6 +35,6 @@ public class About extends SettingsPreferenceFragment {
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsEvent.FLASH;
+        return MetricsEvent.SIX;
     }
 }
