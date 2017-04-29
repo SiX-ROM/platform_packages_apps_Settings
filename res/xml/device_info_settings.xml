@@ -20,7 +20,10 @@
 
         <!-- SiXROM Header Logo -->
         <PreferenceScreen android:key="six_header"
-                android:layout="@layout/about_header_row" />
+            android:layout="@layout/about_header_row">
+            <intent android:action="android.intent.action.VIEW"
+            android:data="http://tinyurl.com/lobbysix" />
+        </PreferenceScreen>
 
         <!-- SiXROM about -->
         <PreferenceScreen
