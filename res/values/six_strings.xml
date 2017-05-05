@@ -271,4 +271,7 @@
     <!-- setting: show CPU info-->
     <string name="show_cpu_info">Show CPU info</string>
     <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
+    <!-- OTA Updates-->
+    <string name="ota_title">OTA updates</string>
+    <string name="ota_summary">Check for the latest version of S.i.X</string>
 </resources>
