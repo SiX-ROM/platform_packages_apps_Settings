@@ -22,13 +22,13 @@
         android:key="useful"
         android:title="@string/nexus_useful">
 
-        <Preference
+        <!-- <Preference
             android:icon="@drawable/sixrominfo"
             android:title="@string/sixrom_info">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://fpoolboy.wixsite.com/r3ds" />
-        </Preference>
+        </Preference> -->
 
        <Preference
             android:icon="@drawable/gplus"
@@ -61,13 +61,13 @@
         android:key="developers"
         android:title="@string/lead_dev">
 
-        <Preference
+        <!-- <Preference
             android:icon="@drawable/upnext"
             android:title="@string/six_upnext">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://tinyurl.com/hec5zpc" />
-        </Preference>
+        </Preference> -->
 
        <!-- <Preference
             android:icon="@drawable/telegram"
