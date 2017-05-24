@@ -22,16 +22,23 @@
         android:key="useful"
         android:title="@string/nexus_useful">
 
-        <!-- <Preference
-            android:icon="@drawable/sixrominfo"
+        <PreferenceScreen
+            android:key="six_ota"
+            android:title="@string/ota_title"
+            android:summary="@string/ota_summary">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.six.ota"
+                    android:targetClass="com.six.ota.MainActivity" />
+        </PreferenceScreen>
+
+        <Preference
             android:title="@string/sixrom_info">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://fpoolboy.wixsite.com/r3ds" />
-        </Preference> -->
+        </Preference>
 
        <Preference
-            android:icon="@drawable/gplus"
             android:title="@string/sixrom_gplus">
             <intent
                 android:action="android.intent.action.VIEW"
@@ -39,7 +46,6 @@
         </Preference>
 
         <Preference
-            android:icon="@drawable/sixscreens"
             android:title="@string/sixrom_sixscreens">
             <intent
                 android:action="android.intent.action.VIEW"
@@ -47,7 +53,6 @@
         </Preference>
 
         <Preference
-            android:icon="@drawable/sixrompapers"
             android:title="@string/sixrom_rompapers">
             <intent
                 android:action="android.intent.action.VIEW"
@@ -62,7 +67,6 @@
         android:title="@string/lead_dev">
 
         <!-- <Preference
-            android:icon="@drawable/upnext"
             android:title="@string/six_upnext">
             <intent
                 android:action="android.intent.action.VIEW"
@@ -70,15 +74,13 @@
         </Preference> -->
 
        <!-- <Preference
-            android:icon="@drawable/telegram"
             android:title="@string/nexus_telegram">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="http://fpoolboy.wixsite.com/r3ds" />
+                android:data="http://tinyurl.com/sixhelp" />
         </Preference> -->
 
         <Preference
-            android:icon="@drawable/pushbullet"
             android:title="@string/nexus_updates">
             <intent
                 android:action="android.intent.action.VIEW"
@@ -86,7 +88,6 @@
         </Preference>
 
         <Preference
-            android:icon="@drawable/github"
             android:title="@string/nexus_github">
             <intent
                 android:action="android.intent.action.VIEW"
@@ -101,12 +102,10 @@
         android:title="@string/contribute">
 
         <Preference
-            android:icon="@drawable/nate"
             android:title="@string/beans"
        	    android:summary="@string/beans_sum"/>
 
         <!-- <Preference
-            android:icon="@drawable/gplus"
             android:title="@string/nexus_gplus">
             <intent
                 android:action="android.intent.action.VIEW"
@@ -114,7 +113,6 @@
         </Preference> -->
 
         <Preference
-            android:icon="@drawable/donate"
             android:title="@string/donate">
             <intent
                 android:action="android.intent.action.VIEW"
@@ -122,27 +120,22 @@
         </Preference>
 
    <!-- <Preference
-            android:icon="@drawable/devonte"
             android:title="@string/devonte"
        	    android:summary="@string/devonte_sum"/>
 	    
         <Preference
-            android:icon="@drawable/daveya"
             android:title="@string/daveya"
        	    android:summary="@string/gfx_sum"/>
 
         <Preference
-            android:icon="@drawable/surge"
             android:title="@string/surge"
        	    android:summary="@string/tweak_sum"/>
 
         <Preference
-            android:icon="@drawable/bajasur"
             android:title="@string/bajasur"
        	    android:summary="@string/tweak_sum" />
 
         <Preference
-            android:icon="@drawable/nathanc"
             android:title="@string/nathanc"
        	    android:summary="@string/nathanc_sum"/> -->
 

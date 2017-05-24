@@ -242,19 +242,19 @@
     <string name="changelog_summary">Since the last update</string>
     <string name="changelog_error">Unable to load changelog</string>
     <!-- Nexus about -->
-    <string name="nexus_about">ROM info</string>
-    <string name="nexus_about_summary">About Rom, and PureNexus official developer</string>
-    <string name="nexus_useful">About S.i.X ROM</string>
+    <string name="nexus_about">S.i.X Center</string>
+    <string name="nexus_about_summary">Extra info, OTA and other helpful links</string>
+    <string name="nexus_useful">About ROM</string>
     <string name="sixrom_info">Homepage</string>
     <string name="sixrom_gplus">Google+ Community</string>
-    <string name="sixrom_sixscreens">Screenshots Collection</string>
-    <string name="sixrom_rompapers">Wallpapers Collection</string>
-    <string name="lead_dev">S.i.X Helpful Links</string>
+    <string name="sixrom_sixscreens">Screenshots collection</string>
+    <string name="sixrom_rompapers">Wallpapers collection</string>
+    <string name="lead_dev">Helpful links</string>
     <string name="six_upnext">Upcoming changes</string>
-    <string name="nexus_telegram">Telegram Live Chat</string>
-    <string name="nexus_updates">Pushbullet News</string>
-    <string name="nexus_github">GitHub Source</string>
-    <string name="contribute">PureNexus Official Developer</string>
+    <string name="nexus_telegram">Telegram live chat</string>
+    <string name="nexus_updates">Pushbullet news</string>
+    <string name="nexus_github">GitHub source</string>
+    <string name="contribute">PureNexus official developer</string>
     <string name="beans">BeansTown106</string>
     <string name="beans_sum">Owner/maintainer</string>
     <string name="nexus_gplus">PureNexus Google+</string>
@@ -273,7 +273,7 @@
     <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
     <!-- OTA Updates-->
     <string name="ota_title">OTA updates</string>
-    <string name="ota_summary">Check for the latest version of S.i.X</string>
+    <string name="ota_summary">Check for the latest rom version</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN is entered\nNote: will only work for 4 digit PIN !</string>

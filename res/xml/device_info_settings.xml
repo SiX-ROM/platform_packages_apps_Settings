@@ -38,16 +38,6 @@
             android:summary="@string/changelog_summary"
             android:fragment="com.android.settings.six.Changelog" />
 
-        <!-- SiXROM OTA -->
-        <PreferenceScreen
-            android:key="six_ota"
-            android:title="@string/ota_title"
-            android:summary="@string/ota_summary">
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.six.ota"
-                    android:targetClass="com.six.ota.MainActivity" />
-        </PreferenceScreen>
-
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status"
