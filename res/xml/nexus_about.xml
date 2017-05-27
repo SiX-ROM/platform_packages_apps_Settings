@@ -32,24 +32,10 @@
         </PreferenceScreen>
 
         <Preference
-            android:title="@string/sixrom_info">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="http://fpoolboy.wixsite.com/r3ds" />
-        </Preference>
-
-       <Preference
-            android:title="@string/sixrom_gplus">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://plus.google.com/u/0/communities/108198916369516028494" />
-        </Preference>
-
-        <Preference
             android:title="@string/sixrom_sixscreens">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://plus.google.com/u/0/collection/kxuLqB" />
+                android:data="https://plus.google.com/u/0/collection/s1mLqB" />
         </Preference>
 
         <Preference
@@ -79,6 +65,20 @@
                 android:action="android.intent.action.VIEW"
                 android:data="http://tinyurl.com/sixhelp" />
         </Preference> -->
+
+        <Preference
+            android:title="@string/sixrom_gplus">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://plus.google.com/u/0/communities/108198916369516028494" />
+        </Preference>
+
+        <Preference
+            android:title="@string/sixrom_info">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://fpoolboy.wixsite.com/r3ds" />
+        </Preference>
 
         <Preference
             android:title="@string/nexus_updates">
