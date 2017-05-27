@@ -17,7 +17,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/nexus_about" >
 
-    <!-- Links -->
+    <!-- About rom -->
     <PreferenceCategory
         android:key="useful"
         android:title="@string/nexus_useful">
@@ -31,72 +31,54 @@
                     android:targetClass="com.six.ota.MainActivity" />
         </PreferenceScreen>
 
+        <PreferenceScreen 
+            android:key="six_changelog"
+            android:title="@string/changelog_title"
+            android:summary="@string/changelog_summary"
+            android:fragment="com.android.settings.six.Changelog" />
+
+    </PreferenceCategory>
+
+    <!-- Useful links -->
+    <PreferenceCategory
+        android:key="developers"
+        android:title="@string/helpful_links">
+
         <Preference
-            android:title="@string/sixrom_sixscreens">
+            android:title="@string/sixrom_sixscreens"
+            android:summary="@string/sixscreens_sum">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://plus.google.com/u/0/collection/s1mLqB" />
         </Preference>
 
         <Preference
-            android:title="@string/sixrom_rompapers">
+            android:title="@string/sixrom_rompapers"
+            android:summary="@string/rompapers_sum">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://plus.google.com/u/0/collection/ErYLqB" />
         </Preference>
 
-    </PreferenceCategory>
-
-    <!-- Developer -->
-    <PreferenceCategory
-        android:key="developers"
-        android:title="@string/lead_dev">
-
-        <!-- <Preference
-            android:title="@string/six_upnext">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="http://tinyurl.com/hec5zpc" />
-        </Preference> -->
-
-       <!-- <Preference
-            android:title="@string/nexus_telegram">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="http://tinyurl.com/sixhelp" />
-        </Preference> -->
-
         <Preference
-            android:title="@string/sixrom_gplus">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://plus.google.com/u/0/communities/108198916369516028494" />
-        </Preference>
-
-        <Preference
-            android:title="@string/sixrom_info">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="http://fpoolboy.wixsite.com/r3ds" />
-        </Preference>
-
-        <Preference
-            android:title="@string/nexus_updates">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://www.pushbullet.com/channel?tag=sixrom" />
-        </Preference>
-
-        <Preference
-            android:title="@string/nexus_github">
+            android:title="@string/six_github"
+            android:summary="@string/github_sum">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://github.com/SiXROM" />
         </Preference>
 
+        <Preference
+            android:title="@string/pushbullet_updates"
+            android:summary="@string/pushbullet_sum">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.pushbullet.com/channel?tag=sixrom" />
+        </Preference>
+
     </PreferenceCategory>
 
-    <!-- Contributions -->
+    <!-- PureNexus owner -->
     <PreferenceCategory
         android:key="contributors"
         android:title="@string/contribute">
@@ -105,39 +87,13 @@
             android:title="@string/beans"
        	    android:summary="@string/beans_sum"/>
 
-        <!-- <Preference
-            android:title="@string/nexus_gplus">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://plus.google.com/communities/103055954354785266764" />
-        </Preference> -->
-
         <Preference
-            android:title="@string/donate">
+            android:title="@string/donate"
+            android:summary="@string/donate_sum">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="http://forum.xda-developers.com/donatetome.php?u=4395895" />
         </Preference>
-
-   <!-- <Preference
-            android:title="@string/devonte"
-       	    android:summary="@string/devonte_sum"/>
-	    
-        <Preference
-            android:title="@string/daveya"
-       	    android:summary="@string/gfx_sum"/>
-
-        <Preference
-            android:title="@string/surge"
-       	    android:summary="@string/tweak_sum"/>
-
-        <Preference
-            android:title="@string/bajasur"
-       	    android:summary="@string/tweak_sum" />
-
-        <Preference
-            android:title="@string/nathanc"
-       	    android:summary="@string/nathanc_sum"/> -->
 
     </PreferenceCategory>
 
