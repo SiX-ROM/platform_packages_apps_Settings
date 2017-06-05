@@ -2792,6 +2792,26 @@
                 android:resource="@string/magisk_summary" />
         </activity>
 
+        <activity android:name="Settings$KernelAdiutorActivity"
+            android:label="@string/kerneladiutor_title"
+            android:icon="@drawable/ic_kernel"
+            android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <intent-filter android:priority="6">
+                <action android:name="com.android.settings.action.SETTINGS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.custom" />
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.KernelAdiutor" />
+            <meta-data android:name="com.android.settings.summary"
+                android:resource="@string/kerneladiutor_sum" />
+        </activity>
+
         <activity android:name="Settings$SuperUserActivity"
             android:label="@string/superuser_title"
             android:icon="@drawable/ic_settings_superuser"
