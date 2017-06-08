@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 The Pure Nexus Project
-
+     Copyright (C) 2017 SiXROM
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -78,21 +78,21 @@
 
     </PreferenceCategory>
 
-    <!-- PureNexus owner -->
+    <!-- SiX ROM owner -->
     <PreferenceCategory
         android:key="contributors"
         android:title="@string/contribute">
 
         <Preference
-            android:title="@string/beans"
-       	    android:summary="@string/beans_sum"/>
+            android:title="@string/r3ds"
+       	    android:summary="@string/r3ds_sum"/>
 
         <Preference
             android:title="@string/donate"
             android:summary="@string/donate_sum">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="http://forum.xda-developers.com/donatetome.php?u=4395895" />
+                android:data="https://www.paypal.me/r3ds" />
         </Preference>
 
     </PreferenceCategory>

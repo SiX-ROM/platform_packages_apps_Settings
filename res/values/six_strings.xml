@@ -254,11 +254,11 @@
     <string name="pushbullet_sum">News and announcements</string>
     <string name="six_github">GitHub</string>
     <string name="github_sum">Build rom from source</string>
-    <string name="contribute">PureNexus official developer</string>
-    <string name="beans">BeansTown106</string>
-    <string name="beans_sum">Owner/maintainer</string>
-    <string name="donate">Donate to PureNexus developer</string>
-    <string name="donate_sum">Paypal for Nate Benis</string>
+    <string name="contribute">S.i.X official developer</string>
+    <string name="r3ds">Frankie T (R3Ds)</string>
+    <string name="r3ds_sum">Owner/maintainer</string>
+    <string name="donate">Donate via PayPal</string>
+    <string name="donate_sum">Thank you in advanced</string>
     <!-- setting: show CPU info-->
     <string name="show_cpu_info">Show CPU info</string>
     <string name="show_cpu_info_summary">Screen overlay showing current CPU info</string>
