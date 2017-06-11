@@ -49,7 +49,7 @@
             android:summary="@string/sixscreens_sum">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://plus.google.com/u/0/collection/s1mLqB" />
+                android:data="https://drive.google.com/drive/folders/0B3EKKJ3Wzt6LOVNGTnkxUmJPRjg?usp=sharing" />
         </Preference>
 
         <Preference
