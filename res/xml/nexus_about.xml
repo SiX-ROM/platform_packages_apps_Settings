@@ -57,7 +57,7 @@
             android:summary="@string/rompapers_sum">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://plus.google.com/u/0/collection/ErYLqB" />
+                android:data="https://drive.google.com/drive/folders/0B3EKKJ3Wzt6LZUVnTndaOHlmRTA?usp=sharing" />
         </Preference>
 
         <Preference
