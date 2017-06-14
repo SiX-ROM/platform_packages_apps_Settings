@@ -44,6 +44,22 @@
         android:key="developers"
         android:title="@string/helpful_links">
 
+       <Preference
+            android:title="@string/sixrom_sixtheme"
+            android:summary="@string/sixtheme_sum">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://play.google.com/store/apps/details?id=com.r3ds.sixtheme" />
+        </Preference>
+
+        <Preference
+            android:title="@string/sixrom_sixheaders"
+            android:summary="@string/sixheaders_sum">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://play.google.com/store/apps/details?id=com.r3ds.sixomniheaders" />
+        </Preference>
+
         <Preference
             android:title="@string/sixrom_sixscreens"
             android:summary="@string/sixscreens_sum">
@@ -65,7 +81,7 @@
             android:summary="@string/github_sum">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://github.com/SiXROM" />
+                android:data="https://github.com/SiX-ROM" />
         </Preference>
 
         <Preference

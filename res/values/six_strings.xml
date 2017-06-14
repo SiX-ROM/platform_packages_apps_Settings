@@ -44,7 +44,7 @@
     <!-- Accessibility settings -->
     <string name="accessibility_settings_summary">Easier access</string>
     <!-- Advanced Options title and summary -->
-    <string name="dev_advanced_settings_title">Advanced options</string>
+    <string name="dev_advanced_settings_title">Advanced</string>
     <string name="dev_advanced_settings_summary">For the experienced user</string>
     <!-- Advanced Options Enabled by Default -->
     <string name="dev_advanced_already_enabled">No need, advanced settings are enabled by default.</string>
@@ -245,6 +245,10 @@
     <string name="nexus_about">S.i.X Center</string>
     <string name="nexus_about_summary">OTA updates, changelog and extra links</string>
     <string name="nexus_useful">About ROM</string>
+    <string name="sixrom_sixtheme">S.i.X theme</string>
+    <string name="sixtheme_sum">Awesome substratum theme by R3Ds</string>
+    <string name="sixrom_sixheaders">S.i.X headers</string>
+    <string name="sixheaders_sum">Extra omnistyle headers by R3Ds</string>
     <string name="sixrom_sixscreens">Screenshots</string>
     <string name="sixscreens_sum">Screenshot collection</string>
     <string name="sixrom_rompapers">Wallpapers</string>

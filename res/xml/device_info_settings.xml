@@ -25,13 +25,6 @@
             android:data="https://plus.google.com/u/0/communities/108198916369516028494" />
         </PreferenceScreen>
 
-        <!-- SiXROM about -->
-        <PreferenceScreen
-            android:key="about_nexus"
-            android:fragment="com.android.settings.six.About"
-            android:title="@string/nexus_about"
-            android:summary="@string/nexus_about_summary" />
-
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status"
